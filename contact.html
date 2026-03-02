@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Z & S Packages</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header id="header">
+      <div class="container header-container">
+        <a href="index.html" class="logo">
+          <i class="fas fa-box-open logo-icon"></i>
+          Z & S <span>Packages</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+          <ul id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li>
+              <a
+                href="contact.html"
+                class="active btn btn-accent"
+                style="padding: 10px 25px"
+                >Get Quote</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="fade-in">Contact Us</h1>
+        <p class="fade-in">
+          Get in touch for custom packaging solutions tailored to your business
+          needs
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-form slide-in-left">
+            <h2>Send Us a Message</h2>
+            <p style="margin-bottom: 30px; color: var(--text-light)">
+              Fill out the form below and we'll get back to you within 24 hours
+            </p>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="your.email@example.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Your Phone Number"
+                />
+              </div>
+              <div class="form-group">
+                <label for="company">Company Name</label>
+                <input
+                  type="text"
+                  id="company"
+                  class="form-control"
+                  placeholder="Your Company (if applicable)"
+                />
+              </div>
+              <div class="form-group">
+                <label for="product-type">Product Interest</label>
+                <select id="product-type" class="form-control">
+                  <option value="">Select a product category</option>
+                  <option value="shoe-boxes">Shoe Boxes</option>
+                  <option value="gift-boxes">Gift Boxes</option>
+                  <option value="corrugated-boxes">Corrugated Boxes</option>
+                  <option value="custom">Custom Packaging</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Project Details *</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  rows="5"
+                  placeholder="Tell us about your packaging needs, quantity, timeline, etc."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h2 class="fade-in">Get in Touch</h2>
+            <p style="margin-bottom: 40px; color: var(--text-light)">
+              We're here to help with all your packaging needs
+            </p>
+
+            <div class="contact-detail slide-in-right">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+1 (555) 123-4567</p>
+                <p style="font-size: 0.9rem; color: var(--text-light)">
+                  Mon-Fri, 8am-6pm PST
+                </p>
+              </div>
+            </div>
+            <div
+              class="contact-detail slide-in-right"
+              style="transition-delay: 0.1s"
+            >
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>sales@zspackages.com</p>
+                <p style="font-size: 0.9rem; color: var(--text-light)">
+                  Response within 24 hours
+                </p>
+              </div>
+            </div>
+            <div
+              class="contact-detail slide-in-right"
+              style="transition-delay: 0.2s"
+            >
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address</h4>
+                <p>123 Industrial Way</p>
+                <p>Packaging District</p>
+                <p>San Francisco, CA 94107</p>
+              </div>
+            </div>
+            <div
+              class="contact-detail slide-in-right"
+              style="transition-delay: 0.3s"
+            >
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Business Hours</h4>
+                <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                <p>Sunday: Closed</p>
+              </div>
+            </div>
+
+            <div style="margin-top: 50px">
+              <h3 class="fade-in">Follow Us</h3>
+              <div class="social-icons" style="margin-top: 20px">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section-padding strengths">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Visit Our Facility</h2>
+          <p>Come see our state-of-the-art manufacturing facility</p>
+        </div>
+
+        <div class="video-container fade-in">
+          <div class="video-placeholder" style="height: 400px">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Our Location</h3>
+            <p>123 Industrial Way, San Francisco, CA 94107</p>
+            <p style="margin-top: 20px">
+              Parking available onsite | Tours by appointment
+            </p>
+          </div>
+        </div>
+
+        <div class="strengths-grid" style="margin-top: 50px">
+          <div class="strength-card fade-in">
+            <div class="strength-icon">
+              <i class="fas fa-calendar-check"></i>
+            </div>
+            <h3>Schedule a Tour</h3>
+            <p>
+              Visit our facility to see our manufacturing process firsthand.
+              Contact us to schedule a tour.
+            </p>
+            <a
+              href="#contactForm"
+              style="
+                display: inline-block;
+                margin-top: 15px;
+                color: var(--primary);
+                font-weight: 600;
+              "
+              >Request Tour <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="strength-card fade-in">
+            <div class="strength-icon">
+              <i class="fas fa-shipping-fast"></i>
+            </div>
+            <h3>Shipping & Logistics</h3>
+            <p>
+              We ship worldwide from our San Francisco facility. Contact us for
+              shipping quotes and logistics.
+            </p>
+            <a
+              href="#contactForm"
+              style="
+                display: inline-block;
+                margin-top: 15px;
+                color: var(--primary);
+                font-weight: 600;
+              "
+              >Shipping Info <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Frequently Asked Questions</h2>
+          <p>Common questions about our packaging solutions</p>
+        </div>
+
+        <div class="strengths-grid">
+          <div class="strength-card fade-in">
+            <h3>What is your minimum order quantity?</h3>
+            <p>
+              Our MOQ varies by product type. For standard products, MOQ is
+              typically 500 units. For custom designs, we can work with
+              quantities as low as 250 units.
+            </p>
+          </div>
+          <div class="strength-card fade-in">
+            <h3>How long does production take?</h3>
+            <p>
+              Production time depends on the complexity of your order. Standard
+              products: 2-3 weeks. Custom designs: 3-5 weeks including
+              prototyping and approval time.
+            </p>
+          </div>
+          <div class="strength-card fade-in">
+            <h3>Do you offer design services?</h3>
+            <p>
+              Yes! Our in-house design team can create custom packaging designs
+              from scratch or work with your existing designs to optimize them
+              for production.
+            </p>
+          </div>
+          <div class="strength-card fade-in">
+            <h3>What materials do you work with?</h3>
+            <p>
+              We work with various materials including corrugated cardboard,
+              Kraft paper, paperboard, and recycled materials. We can help you
+              select the best option for your needs.
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px">
+          <p style="color: var(--text-light)">Have more questions?</p>
+          <a
+            href="#contactForm"
+            class="btn btn-secondary"
+            style="margin-top: 15px"
+            >Ask a Question</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-about fade-in">
+            <a href="index.html" class="footer-logo">
+              <i class="fas fa-box-open logo-icon"></i>
+              Z & S <span>Packages</span>
+            </a>
+            <p>
+              Specializing in custom corrugated and retail packaging solutions
+              for businesses worldwide. Quality packaging for secure delivery.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-links fade-in" style="transition-delay: 0.1s">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="videos.html">Videos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.html">Get Quote</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact fade-in" style="transition-delay: 0.2s">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Industrial Way, San
+              Francisco, CA 94107
+            </p>
+            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> sales@zspackages.com</p>
+            <p><i class="fas fa-globe"></i> www.zspackages.com</p>
+          </div>
+        </div>
+        <div class="copyright fade-in">
+          <p>
+            &copy; 2023 Z & S Packages. All rights reserved. | Designed with
+            <i class="fas fa-heart" style="color: var(--secondary)"></i> for
+            packaging excellence
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
